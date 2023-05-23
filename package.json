@@ -1,0 +1,12 @@
+{
+  "name": "caluclator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "sass": "sass sass:dist/css -w"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
