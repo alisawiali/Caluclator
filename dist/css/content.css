@@ -55,6 +55,33 @@ form input.operator {
   bottom: 20px;
 }
 
+.them-toogle {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  z-index: 1;
+}
+
+.them-toogle.active {
+  color: #002afd;
+}
+
+.them-toogle.active::before {
+  background-color: burlywood;
+}
+
+.them-toogle::before {
+  content: "";
+  height: 30px;
+  width: 30px;
+  position: absolute;
+  top: 5%;
+  background-color: #6a6a6a;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+
 @media (max-width: 600px) {
   .calculator {
     width: 200px;
